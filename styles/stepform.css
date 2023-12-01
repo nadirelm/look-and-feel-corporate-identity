@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+:root{
+    --border: solid 1px #b2b3b5;
+    --bg: #f6f6f6;
+    --text: #000000;
+}
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+    margin: 20px;
+}
+.form-wrap{
+    width: 100%;
+    margin: auto;
+}
+#main {
+    width: 960px;
+    margin: 0 auto;
+    border: var(--border);
+    -moz-border-radius: 10px;
+    padding: 20px;
+    border: var(--bg);
+}
+#header {
+    text-align: center;
+    border: var(--border);
+    margin: 0 0 20px 0;
+}
+fieldset {
+    border: none;
+    max-width: 750px;
+}
+legend {
+    font-size: 18px;
+    margin: 0px;
+    padding: 10px 0px;
+    color: #000000;
+    font-weight: bold;
+}
+label {
+    width: 100%;
+    display: block;
+    margin: 15px 0 5px;
+}
+input[type="text"],
+input[type="password"],select {
+    outline: none;
+    width: 100%;
+    text-align: left;
+    padding: 10px 10px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    text-decoration: none;
+    color: var(--text);
+    border: 2px solid black;
+    transition: all 250ms ease;
+    will-change: transition;
+    font-size: 18px;
+}
+.prev,
+.next, #SaveAccount {
+    font-size: 18px;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 10px;
+    background-color: #000000;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid black;
+    transition: all 250ms ease;
+    will-change: transition;
+}
+.prev:hover,
+.next:hover {
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+}
+.prev {
+    float: left;
+}
+.next {
+    float: left;
+}
+#steps {
+    list-style: none;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+#steps li {
+    font-size: 24px;
+    float: left;
+    padding: 10px;
+    color: #b0b1b3;
+}
+#steps li span {
+    font-size: 11px;
+    display: block;
+}
+#steps li.current {
+    color: var(--text);
+}
+#makeWizard {
+    background-color: #000000;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+#makeWizard:hover {
+    background-color: #000;
+}
+
+
+/*Optie knoppen*/
+
+.middle {
+    width: 100%;
+    height: 140px;
+    text-align: center;
+}
+.middle h1 {
+    font-family: "Inter", sans-serif;
+    color: var(--text);
+}
+.middle input[type=radio] {
+    display: none;
+}
+.middle input[type=radio]:checked + .box {
+    background-color: #000000;
+    border-radius: 15px;
+}
+.middle input[type=radio]:checked + .box span {
+    color: white;
+    transform: translateY(20px);
+}
+.middle input[type=radio]:checked + .box span:before {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.middle .box {
+    width: 200px;
+    height: 100px;
+    background-color: #fff;
+    transition: all 250ms ease;
+    will-change: transition;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+}
+.box{
+    float: left;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 10px 10px 10px 0;
+}
+
+.middle .box:active {
+    transform: translateY(5px);
+}
+.middle .box span {
+    position: absolute;
+    transform: translate(0, 0);
+    left: 0;
+    right: 0;
+    transition: all 300ms ease;
+    font-size: 1.5em;
+    user-select: none;
+    color: var(--text);
+}
+.middle .box span:before {
+    font-size: 1.5em;
+    font-family: FontAwesome;
+    display: block;
+    transform: translateY(-80px);
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+    font-weight: normal;
+    color: white;
+}
+.middle .box h4{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.middle .front-end span:before {
+    content: '\f00c';
+}
+.middle .back-end span:before {
+    content: "\f00c";
+}
+.middle p {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+.middle p a {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #fff;
+}
