@@ -1,19 +1,20 @@
-> _Fork_ deze leertaak en ga aan de slag. 
-Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
-De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# Corporate identity Sprint 4
+## Handprint & Footprint
+In dit project heb ik gewerkt aan een formulier voor handprint & footprint met als doel data verzamelen voor de hand/footprint van het bedrijf. Ik heb een formulier gebruikt met gebruikt van css en javascript. Ik heb daarbij een formulier met stappen en bij elke stap zijn eigen onderwerp. Het formulier kan vervolgens verzonden worden via bijvoorbeeld ajax/php.
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+De volgende punten moesten erin verwerkt worden:
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+De gebruiker (het bedrijf) moet een formulier invullen met vragen over hand/footprint. Vragen zoals het cirkeldiagram van https://doughnuteconomics.org/.
+Een moment opnamen moest gemaakt kunnen worden van het bedrijf.
+De admin moet de data kunnen inzien met behulp van een admin paneel.
+Met deze data kan e.v.t. scores worden berekend (Niet noodzakelijk).
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
-## Bronnen
+Living styleguide
+Ik heb voor deze project een styleguide gemaakt om er voor te zorgen dat alle componenten op de website hetzelfde zijn. Living syleguide
+
+Script & CSS
+Ik heb gebruik gemaakt van javascript en de jquery library om het formulier op te bouwen. Daarnaast heb ik gebruik gemaakt van css en daarbij custom properties gebruikt om de CSS te versimpelen. :root{ --border: solid 1px #b2b3b5; --bg: #f6f6f6; --text: #000000; }
 
 ## Licentie
 
